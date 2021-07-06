@@ -1,11 +1,11 @@
-Iquidus Explorer - 1.7.4
+LeefCoin Explorer - 1.7.4
 ================
 
 An open source block explorer written in node.js.
 
 ### See it in action
 
-*  [List of live explorers running Iquidus](https://github.com/iquidus/explorer/wiki/Live-Explorers)
+*  [List of live explorers running LeefCoin](https://github.com/LeefCoin/explorer/wiki/Live-Explorers)
 
 
 *Note: If you would like your instance mentioned here contact me*
@@ -28,7 +28,7 @@ Create databse:
 
 Create user with read/write access:
 
-    > db.createUser( { user: "iquidus", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
+    > db.createUser( { user: "LeefCoin", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
 
 *Note: If you're using mongo shell 4.2.x, use the following to create your user:
 
@@ -36,7 +36,7 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/iquidus/explorer explorer
+    git clone https://github.com/LeefCoin/explorer explorer
 
 ### Install node modules
 
@@ -96,7 +96,7 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
 
 ### Wallet
 
-Iquidus Explorer is intended to be generic, so it can be used with any wallet following the usual standards. The wallet must be running with atleast the following flags
+LeefCoin Explorer is intended to be generic, so it can be used with any wallet following the usual standards. The wallet must be running with atleast the following flags
 
     -daemon -txindex
     
@@ -133,7 +133,7 @@ Where [SIZE] is an integer higher than the default.
 
 ### License
 
-Copyright (c) 2015, Iquidus Technology  
+Copyright (c) 2015, LeefCoin Technology  
 Copyright (c) 2015, Luke Williams  
 All rights reserved.
 
@@ -147,7 +147,7 @@ modification, are permitted provided that the following conditions are met:
   this list of conditions and the following disclaimer in the documentation
   and/or other materials provided with the distribution.
 
-* Neither the name of Iquidus Technology nor the names of its
+* Neither the name of LeefCoin Technology nor the names of its
   contributors may be used to endorse or promote products derived from
   this software without specific prior written permission.
 

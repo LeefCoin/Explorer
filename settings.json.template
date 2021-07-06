@@ -5,7 +5,7 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "LeefCoin",
 
   "address": "127.0.0.1:3001",
 
@@ -36,7 +36,7 @@
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "iquidus",
+    "user": "LeefCoin",
     "password": "3xp!0reR",
     "database": "explorerdb",
     "address": "localhost",
@@ -129,7 +129,7 @@
   },
 
   // twitter, facebook, googleplus, youtube
-  "twitter": "iquidus",
+  "twitter": "LeefCoin",
   "facebook": "yourfacebookpage",
   "googleplus": "yourgooglepluspage",
   "youtube": "youryoutubechannel",
