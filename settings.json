@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "LeefCoin",
+  "title": "LeefCoin Block Explorer",
 
-  "address": "127.0.0.1:3001",
+  "address": "127.0.0.1:80",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "LeefCoin",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "LFC",
 
   // logo
   "logo": "/images/logo.png",
@@ -32,12 +32,12 @@
   "theme": "Cyborg",
 
   // port to listen for requests on.
-  "port" : 3001,
+  "port" : 80,
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "LeefCoin",
-    "password": "3xp!0reR",
+    "user": "user",
+    "password": "password",
     "database": "explorerdb",
     "address": "localhost",
     "port": 27017
@@ -53,23 +53,23 @@
 
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "username": "darkcoinrpc",
-    "password": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": 37261,
+    "username": "user",
+    "password": "password"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 60,
 
   // language settings
   "locale": "locale/en.json",
 
   // menu settings
   "display": {
-    "api": true,
-    "markets": true,
+    "api": false,
+    "markets": false,
     "richlist": true,
-    "twitter": true,
+    "twitter": false,
     "facebook": false,
     "googleplus": false,
     "youtube": false,
