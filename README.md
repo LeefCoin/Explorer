@@ -1,4 +1,5 @@
 # The LeefCoin Block Explorer
+Live here - [Explorer.LeefCoin.org](http://explorer.leefcoin.org)
 
 Based on the [iquidus explorer](https://github.com/iquidus/explorer)
 
