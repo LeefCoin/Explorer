@@ -1,6 +1,6 @@
 # The LeefCoin Block Explorer
 
-based on iquidus explorer
+Based on the [iquidus explorer](https://github.com/iquidus/explorer)
 
 # Install on ubuntu 18.04 server
 
