@@ -4,7 +4,7 @@ Based on the [iquidus explorer](https://github.com/iquidus/explorer)
 
 # Install on ubuntu 18.04 server
 
-first of all, make sure you have a LeefCoin node installed.
+First of all, make sure you have a LeefCoin node installed.
 
   If you don't have a LeefCoin Core installed, you can find the tutorial about how to install it here
 
@@ -44,7 +44,7 @@ Type the following command to close MongoDB:
 
      exit
      
-# Install and run LeefCoin Explorer
+# Install LeefCoin Explorer
 
 Type the following command to clone LeefCoin Explorer:
 
@@ -53,6 +53,24 @@ Type the following command to clone LeefCoin Explorer:
 * Type the following command to install LeefCoin Explorer:
 
       cd explorer && npm install --production
+      
+# Modify the following values in file settings.json
+
+* Network
+
+      Change the value “127.0.0.1” to the IPv4 address of your server.
+
+* Database
+
+      “password” -> “your database password”.
+
+* Wallet daemon
+
+      “user” -> “Your node JSON-RPC user”.
+
+      "password” -> “Your node JSON-RPC password”.
+
+# Run LeefCoin Explorer
 
 * Type the following command to start a screen session:
 
